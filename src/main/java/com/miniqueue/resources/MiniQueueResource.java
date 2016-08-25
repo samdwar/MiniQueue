@@ -49,12 +49,4 @@ public class MiniQueueResource {
         Response response = executor.execute(receiveCommand);
         return response;
     }
-
-
-    @DELETE
-    @Path("/purge")
-    public Response purge() {
-
-        return Response.status(200).build();
-    }
 }

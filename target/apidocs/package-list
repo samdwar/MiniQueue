@@ -1,0 +1,9 @@
+com.miniqueue
+com.miniqueue.command
+com.miniqueue.core
+com.miniqueue.dao
+com.miniqueue.datasource
+com.miniqueue.executor
+com.miniqueue.representation.request
+com.miniqueue.representation.response
+com.miniqueue.resources
