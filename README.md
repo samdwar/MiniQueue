@@ -1,6 +1,12 @@
 # MiniQueue
-
-How to start the MiniQueue application
+  MiniQueue is a DropWizard application which provides RESTful API for Producer and Consumer to produce and consume messages respectively.Once consumer processed the message it will notify MiniQ that message with messageIds has been processed and hence delete these message.
+  Also if processing is taking more than 30 second then message can be read by any consumer.
+ 
+ Prerequisites:
+--- 
+  Java, Maven and MySQL.
+ 
+ How to start the MiniQueue application
 ---
 
 1. Run `mvn clean install` to build your application
@@ -98,3 +104,13 @@ Available API
     
     Output:
     Status Code : 200 OK
+    
+Abstracting data storage
+------------------------
+ The abstraction of data storage is created for this project. There is DataSource interface. You can use this interface for different Data Storage , like File, Network etc. In this case i have used MySQL.
+    
+Scaling System to support high volume request:
+----------------------------------------------
+ We can use cluster of machines and ELB (Elastic Load Balancer) to distribute the traffic between these machines. If any machines failes alos then we can easily rotate traffic.
+ For faster access of Data we can opt for aerospike and  mongodb.
+ 

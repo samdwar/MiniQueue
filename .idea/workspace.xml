@@ -2,120 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f54d0f44-d303-48f7-86c2-226c05778c1c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/miniqueue/command/NotifyProcessedMessageCommand.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/miniqueue/executor/NotifyMessageExecutor.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/representation/request/Message.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/representation/request/class-use/Message.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/representation/response/Message.MessageMapper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/representation/response/Message.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/representation/response/class-use/Message.MessageMapper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/representation/response/class-use/Message.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/miniqueue/representation/request/Message.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/miniqueue/representation/response/Message$MessageMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/miniqueue/representation/response/Message.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/miniqueue/representation/request/Message.java" afterPath="$PROJECT_DIR$/src/main/java/com/miniqueue/representation/request/MessageRequest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/miniqueue/representation/response/Message.java" afterPath="$PROJECT_DIR$/src/main/java/com/miniqueue/representation/response/MessageResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MiniQueue-1.0-SNAPSHOT-javadoc.jar" afterPath="$PROJECT_DIR$/target/MiniQueue-1.0-SNAPSHOT-javadoc.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MiniQueue-1.0-SNAPSHOT-sources.jar" afterPath="$PROJECT_DIR$/target/MiniQueue-1.0-SNAPSHOT-sources.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MiniQueue-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/MiniQueue-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/miniqueue/MiniQueueApplication.class" afterPath="$PROJECT_DIR$/target/classes/com/miniqueue/MiniQueueApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/miniqueue/command/ConsumerCommand.class" afterPath="$PROJECT_DIR$/target/classes/com/miniqueue/command/ConsumerCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/miniqueue/command/ProducerCommand.class" afterPath="$PROJECT_DIR$/target/classes/com/miniqueue/command/ProducerCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/miniqueue/core/MessageQueue.class" afterPath="$PROJECT_DIR$/target/classes/com/miniqueue/core/MessageQueue.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/miniqueue/dao/MessageDAO.class" afterPath="$PROJECT_DIR$/target/classes/com/miniqueue/dao/MessageDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/miniqueue/datasource/DataSource.class" afterPath="$PROJECT_DIR$/target/classes/com/miniqueue/datasource/DataSource.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/miniqueue/datasource/DbDataSource.class" afterPath="$PROJECT_DIR$/target/classes/com/miniqueue/datasource/DbDataSource.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/miniqueue/resources/MiniQueueResource.class" afterPath="$PROJECT_DIR$/target/classes/com/miniqueue/resources/MiniQueueResource.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/original-MiniQueue-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/original-MiniQueue-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.yml" afterPath="$PROJECT_DIR$/config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/miniqueue/MiniQueueApplication.java" afterPath="$PROJECT_DIR$/src/main/java/com/miniqueue/MiniQueueApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/miniqueue/command/ConsumerCommand.java" afterPath="$PROJECT_DIR$/src/main/java/com/miniqueue/command/ConsumerCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/miniqueue/command/ProducerCommand.java" afterPath="$PROJECT_DIR$/src/main/java/com/miniqueue/command/ProducerCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/miniqueue/core/MessageQueue.java" afterPath="$PROJECT_DIR$/src/main/java/com/miniqueue/core/MessageQueue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/miniqueue/dao/MessageDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/miniqueue/dao/MessageDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/miniqueue/datasource/DataSource.java" afterPath="$PROJECT_DIR$/src/main/java/com/miniqueue/datasource/DataSource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/miniqueue/datasource/DbDataSource.java" afterPath="$PROJECT_DIR$/src/main/java/com/miniqueue/datasource/DbDataSource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/miniqueue/resources/MiniQueueResource.java" afterPath="$PROJECT_DIR$/src/main/java/com/miniqueue/resources/MiniQueueResource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" afterPath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/MiniQueueApplication.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/MiniQueueApplication.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/MiniQueueConfiguration.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/MiniQueueConfiguration.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/class-use/MiniQueueApplication.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/class-use/MiniQueueApplication.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/class-use/MiniQueueConfiguration.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/class-use/MiniQueueConfiguration.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/command/Command.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/command/Command.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/command/ConsumerCommand.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/command/ConsumerCommand.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/command/ProducerCommand.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/command/ProducerCommand.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/command/class-use/Command.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/command/class-use/Command.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/command/class-use/ConsumerCommand.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/command/class-use/ConsumerCommand.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/command/class-use/ProducerCommand.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/command/class-use/ProducerCommand.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/command/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/command/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/command/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/command/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/command/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/command/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/command/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/command/package-use.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/core/MessageQueue.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/core/MessageQueue.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/core/class-use/MessageQueue.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/core/class-use/MessageQueue.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/core/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/core/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/core/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/core/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/core/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/core/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/core/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/core/package-use.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/dao/MessageDAO.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/dao/MessageDAO.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/dao/class-use/MessageDAO.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/dao/class-use/MessageDAO.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/dao/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/dao/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/dao/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/dao/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/dao/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/dao/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/dao/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/dao/package-use.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/datasource/DataSource.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/datasource/DataSource.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/datasource/DbDataSource.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/datasource/DbDataSource.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/datasource/class-use/DataSource.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/datasource/class-use/DataSource.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/datasource/class-use/DbDataSource.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/datasource/class-use/DbDataSource.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/datasource/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/datasource/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/datasource/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/datasource/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/datasource/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/datasource/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/datasource/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/datasource/package-use.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/executor/ConsumerExecutor.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/executor/ConsumerExecutor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/executor/Executor.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/executor/Executor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/executor/ProducerExecutor.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/executor/ProducerExecutor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/executor/class-use/ConsumerExecutor.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/executor/class-use/ConsumerExecutor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/executor/class-use/Executor.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/executor/class-use/Executor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/executor/class-use/ProducerExecutor.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/executor/class-use/ProducerExecutor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/executor/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/executor/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/executor/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/executor/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/executor/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/executor/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/executor/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/executor/package-use.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/package-use.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/representation/request/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/representation/request/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/representation/request/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/representation/request/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/representation/request/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/representation/request/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/representation/request/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/representation/request/package-use.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/representation/response/CreateMessageResponse.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/representation/response/CreateMessageResponse.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/representation/response/class-use/CreateMessageResponse.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/representation/response/class-use/CreateMessageResponse.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/representation/response/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/representation/response/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/representation/response/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/representation/response/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/representation/response/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/representation/response/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/representation/response/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/representation/response/package-use.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/resources/MiniQueueResource.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/resources/MiniQueueResource.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/resources/class-use/MiniQueueResource.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/resources/class-use/MiniQueueResource.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/resources/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/resources/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/resources/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/resources/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/resources/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/resources/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/miniqueue/resources/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/com/miniqueue/resources/package-use.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/constant-values.html" afterPath="$PROJECT_DIR$/target/apidocs/constant-values.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" afterPath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/help-doc.html" afterPath="$PROJECT_DIR$/target/apidocs/help-doc.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/index-all.html" afterPath="$PROJECT_DIR$/target/apidocs/index-all.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/index.html" afterPath="$PROJECT_DIR$/target/apidocs/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/overview-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/overview-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/overview-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/overview-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/overview-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/overview-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
     </list>
     <ignored path="MiniQueue.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -137,97 +24,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MiniQueueApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/miniqueue/MiniQueueApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="455">
+                <caret line="109" column="204" selection-start-line="109" selection-start-column="204" selection-end-line="109" selection-end-column="204" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NotifyProcessedMessageCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/miniqueue/command/NotifyProcessedMessageCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MiniQueueResource.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/miniqueue/resources/MiniQueueResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="56" column="27" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessageResponse.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/miniqueue/representation/response/MessageResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessageQueue.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/miniqueue/core/MessageQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DbDataSource.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/miniqueue/datasource/DbDataSource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessageDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/miniqueue/dao/MessageDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessageRequest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/miniqueue/representation/request/MessageRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-              <folding />
-            </state>
+          <provider selected="true" editor-type-id="MarkdownFxPreviewEditor">
+            <state />
           </provider>
         </entry>
       </file>
@@ -267,11 +76,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/miniqueue/core/MessageQueue.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/miniqueue/command/NotifyProcessedMessageCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/miniqueue/representation/response/MessageResponse.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/miniqueue/representation/request/MessageRequest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/miniqueue/datasource/DbDataSource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/miniqueue/dao/MessageDAO.java" />
         <option value="$PROJECT_DIR$/config.yml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -445,7 +254,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="con&#9;FILE&#9;file:///home/sam/IdeaProjects/MiniQueue/config.yml&#10;readm&#9;FILE&#9;file:///home/sam/IdeaProjects/MiniQueue/README.md&#10;config.&#9;FILE&#9;file:///home/sam/IdeaProjects/MiniQueue/config.yml&#10;pom&#9;FILE&#9;file:///home/sam/IdeaProjects/MiniQueue/pom.xml" />
+    <property name="SearchEverywhereHistoryKey" value="RE&#9;FILE&#9;file:///home/sam/IdeaProjects/MiniQueue/README.md&#10;con&#9;FILE&#9;file:///home/sam/IdeaProjects/MiniQueue/config.yml&#10;readm&#9;FILE&#9;file:///home/sam/IdeaProjects/MiniQueue/README.md&#10;config.&#9;FILE&#9;file:///home/sam/IdeaProjects/MiniQueue/config.yml&#10;pom&#9;FILE&#9;file:///home/sam/IdeaProjects/MiniQueue/pom.xml" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -925,12 +734,12 @@
       <workItem from="1472062887768" duration="6902000" />
       <workItem from="1472100951682" duration="9336000" />
       <workItem from="1472124299329" duration="1624000" />
-      <workItem from="1472143422467" duration="6744000" />
+      <workItem from="1472143422467" duration="8302000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24606000" />
+    <option name="totallyTimeSpent" value="26164000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
@@ -1268,40 +1077,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="124">
-            <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/miniqueue/command/NotifyProcessedMessageCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/miniqueue/resources/MiniQueueResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="56" column="27" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1334,10 +1113,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+        <state relative-caret-position="285">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/miniqueue/resources/MiniQueueResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="56" column="27" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="455">
+            <caret line="109" column="204" selection-start-line="109" selection-start-column="204" selection-end-line="109" selection-end-column="204" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="MarkdownFxPreviewEditor">
+        <state />
       </provider>
     </entry>
   </component>
