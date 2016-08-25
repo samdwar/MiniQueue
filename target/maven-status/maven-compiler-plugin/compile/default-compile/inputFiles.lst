@@ -1,0 +1,16 @@
+/home/sam/IdeaProjects/MiniQueue/src/main/java/com/miniqueue/command/Command.java
+/home/sam/IdeaProjects/MiniQueue/src/main/java/com/miniqueue/executor/Executor.java
+/home/sam/IdeaProjects/MiniQueue/src/main/java/com/miniqueue/representation/response/Message.java
+/home/sam/IdeaProjects/MiniQueue/src/main/java/com/miniqueue/datasource/DataSource.java
+/home/sam/IdeaProjects/MiniQueue/src/main/java/com/miniqueue/executor/ConsumerExecutor.java
+/home/sam/IdeaProjects/MiniQueue/src/main/java/com/miniqueue/MiniQueueConfiguration.java
+/home/sam/IdeaProjects/MiniQueue/src/main/java/com/miniqueue/representation/response/CreateMessageResponse.java
+/home/sam/IdeaProjects/MiniQueue/src/main/java/com/miniqueue/representation/request/Message.java
+/home/sam/IdeaProjects/MiniQueue/src/main/java/com/miniqueue/datasource/DbDataSource.java
+/home/sam/IdeaProjects/MiniQueue/src/main/java/com/miniqueue/resources/MiniQueueResource.java
+/home/sam/IdeaProjects/MiniQueue/src/main/java/com/miniqueue/dao/MessageDAO.java
+/home/sam/IdeaProjects/MiniQueue/src/main/java/com/miniqueue/MiniQueueApplication.java
+/home/sam/IdeaProjects/MiniQueue/src/main/java/com/miniqueue/executor/ProducerExecutor.java
+/home/sam/IdeaProjects/MiniQueue/src/main/java/com/miniqueue/command/ProducerCommand.java
+/home/sam/IdeaProjects/MiniQueue/src/main/java/com/miniqueue/core/MessageQueue.java
+/home/sam/IdeaProjects/MiniQueue/src/main/java/com/miniqueue/command/ConsumerCommand.java

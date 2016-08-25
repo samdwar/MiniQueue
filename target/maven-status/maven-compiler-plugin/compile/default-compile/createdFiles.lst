@@ -1,0 +1,17 @@
+com/miniqueue/dao/MessageDAO.class
+com/miniqueue/MiniQueueConfiguration.class
+com/miniqueue/executor/ProducerExecutor.class
+com/miniqueue/representation/request/Message.class
+com/miniqueue/executor/ConsumerExecutor.class
+com/miniqueue/core/MessageQueue.class
+com/miniqueue/representation/response/Message.class
+com/miniqueue/representation/response/CreateMessageResponse.class
+com/miniqueue/command/ConsumerCommand.class
+com/miniqueue/datasource/DataSource.class
+com/miniqueue/command/ProducerCommand.class
+com/miniqueue/MiniQueueApplication.class
+com/miniqueue/executor/Executor.class
+com/miniqueue/command/Command.class
+com/miniqueue/datasource/DbDataSource.class
+com/miniqueue/resources/MiniQueueResource.class
+com/miniqueue/representation/response/Message$MessageMapper.class
