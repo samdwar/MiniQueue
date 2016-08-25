@@ -20,7 +20,6 @@ public class MiniQueueApplication extends Application<MiniQueueConfiguration> {
 
     @Override
     public void initialize(final Bootstrap<MiniQueueConfiguration> bootstrap) {
-        // TODO: application initialization
     }
 
     @Override

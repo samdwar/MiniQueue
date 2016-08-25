@@ -9,14 +9,21 @@ How to start the MiniQueue application
 
 Available API
 -------------
-1. `http://localhost:8081/send`
+1. Create New Message 
+    `http://localhost:8081/send`
+    
     This api lets you create new message in the Queue.
-    Sample response: 
-    `{
+   
+    Sample JSON response: 
+   `{
       "messageId": "c3a92239-84dd-4fa0-8313-995f746adbeb"
     }`
-2. `http://localhost:8081/receive`
+    
+2. Receive unprocessed message for processing 
+    `http://localhost:8081/receive`
     This api to get message for processing for consumers from Queue.
+    
+    Sample Output : JSON format
     `[
        {
          "messageId": "141e624a-c939-446d-a858-d3a8eebee30b",
@@ -69,4 +76,25 @@ Available API
          "isProcessing": 1
        }
      ]`
+
+1. Notify that messages with these message id has been processed.
+    `localhost:8080/notifyProcessed`
     
+    Input Payload: JSON format
+    `[
+       {
+         "messageId": "9908d1cf-8bce-404a-bd14-793a920ac2f2"
+       },
+       {
+         "messageId": "cd1887cf-8679-46bb-b3ba-1a3ba70a0b26"
+       },
+       {
+         "messageId": "d9f91c7a-465b-415f-aaa8-48d5582ebbee"
+       },
+       {
+         "messageId": "f0af76ef-a782-4fb1-bce9-4450d518ae51"
+       }
+     ]`
+    
+    Output:
+    Status Code : 200 OK

@@ -1,9 +1,8 @@
 package com.miniqueue.command;
 
 import com.miniqueue.core.MessageQueue;
-import com.miniqueue.dao.MessageDAO;
 import com.miniqueue.datasource.DbDataSource;
-import com.miniqueue.representation.request.Message;
+import com.miniqueue.representation.request.MessageRequest;
 import com.miniqueue.representation.response.CreateMessageResponse;
 import org.skife.jdbi.v2.DBI;
 
@@ -26,11 +25,9 @@ public class ProducerCommand implements Command {
         DbDataSource dbDataSource = new DbDataSource(jdbi);
         MessageQueue messageQueue = MessageQueue.getInstance();
         String messageId = generateUniqueId();
-        Message message = new Message();
-        message.setMessageId(messageId);
-        message.setIsProcessed(0);
-        message.setIsProcessing(0);
-        CreateMessageResponse createMessageResponse = messageQueue.send(message, dbDataSource);
+        MessageRequest messageRequest = new MessageRequest();
+        messageRequest.setMessageId(messageId);
+        CreateMessageResponse createMessageResponse = messageQueue.send(messageRequest, dbDataSource);
         return Response.status(Response.Status.OK).entity(createMessageResponse).build();
     }
 

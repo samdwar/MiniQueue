@@ -1,9 +1,8 @@
 package com.miniqueue.command;
 
 import com.miniqueue.core.MessageQueue;
-import com.miniqueue.dao.MessageDAO;
 import com.miniqueue.datasource.DbDataSource;
-import com.miniqueue.representation.response.Message;
+import com.miniqueue.representation.response.MessageResponse;
 import org.skife.jdbi.v2.DBI;
 
 import javax.ws.rs.core.Response;
@@ -23,7 +22,7 @@ public class ConsumerCommand implements Command {
     public Response run() {
         DbDataSource dbDataSource = new DbDataSource(jdbi);
         MessageQueue messageQueue = MessageQueue.getInstance();
-        List<Message> messageList = messageQueue.receive(dbDataSource);
-        return Response.status(Response.Status.OK).entity(messageList).build();
+        List<MessageResponse> messageResponseList = messageQueue.receive(dbDataSource);
+        return Response.status(Response.Status.OK).entity(messageResponseList).build();
     }
 }

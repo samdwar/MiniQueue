@@ -2,16 +2,18 @@ package com.miniqueue.resources;
 
 import com.miniqueue.command.Command;
 import com.miniqueue.command.ConsumerCommand;
+import com.miniqueue.command.NotifyProcessedMessageCommand;
 import com.miniqueue.command.ProducerCommand;
 import com.miniqueue.executor.ConsumerExecutor;
 import com.miniqueue.executor.Executor;
 import com.miniqueue.executor.ProducerExecutor;
-import com.miniqueue.representation.request.Message;
+import com.miniqueue.representation.request.MessageRequest;
 import org.skife.jdbi.v2.DBI;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+import java.util.List;
 
 /**
  * Created by sam on 24/8/16.
@@ -47,6 +49,16 @@ public class MiniQueueResource {
         Command receiveCommand = new ConsumerCommand(jdbi);
         Executor executor = new ConsumerExecutor();
         Response response = executor.execute(receiveCommand);
+        return response;
+    }
+
+    @POST
+
+    @Path("/notifyProcessed")
+    public Response notifyProcessed(List<MessageRequest> messageRequestList) {
+        Command sendCommand = new NotifyProcessedMessageCommand(jdbi,messageRequestList);
+        Executor executor = new ProducerExecutor();
+        Response response = executor.execute(sendCommand);
         return response;
     }
 }

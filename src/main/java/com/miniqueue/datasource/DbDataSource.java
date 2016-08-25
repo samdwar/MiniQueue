@@ -1,13 +1,12 @@
 package com.miniqueue.datasource;
 
 import com.miniqueue.dao.MessageDAO;
-import com.miniqueue.representation.request.Message;
+import com.miniqueue.representation.request.MessageRequest;
 import com.miniqueue.representation.response.CreateMessageResponse;
+import com.miniqueue.representation.response.MessageResponse;
 import org.skife.jdbi.v2.DBI;
 
-import javax.ws.rs.core.Response;
 import java.util.List;
-import java.util.UUID;
 
 /**
  * Created by sam on 25/8/16.
@@ -20,25 +19,27 @@ public class DbDataSource implements DataSource {
     }
 
     @Override
-    public CreateMessageResponse send(Message message) {
+    public CreateMessageResponse send(MessageRequest messageRequest) {
         MessageDAO messageDAO = jdbi.onDemand(MessageDAO.class);
-        messageDAO.createNewMessage(message);
+        messageDAO.createNewMessage(messageRequest);
         CreateMessageResponse createMessageResponse = new CreateMessageResponse();
-        createMessageResponse.setMessageId(message.getMessageId());
+        createMessageResponse.setMessageId(messageRequest.getMessageId());
         return createMessageResponse;
     }
 
 
     @Override
-    public List<com.miniqueue.representation.response.Message> receive() {
+    public List<MessageResponse> receive() {
         MessageDAO messageDAO = jdbi.onDemand(MessageDAO.class);
-        List<com.miniqueue.representation.response.Message> messageList = messageDAO.getMessages();
-        for (com.miniqueue.representation.response.Message message : messageList) {
-            message.setIsProcessed(1);
-            message.setIsProcessing(1);
-        }
-        messageDAO.updateMessage(messageList);
-        return messageList;
+        List<MessageResponse> messageResponseList = messageDAO.getMessages();
+        messageDAO.updateMessage(messageResponseList);
+        return messageResponseList;
+    }
+
+    @Override
+    public void notifyMessages(List<MessageRequest> messageRequestList) {
+        MessageDAO messageDAO = jdbi.onDemand(MessageDAO.class);
+        messageDAO.updateMessageAfterProcessed(messageRequestList);
     }
 
 
