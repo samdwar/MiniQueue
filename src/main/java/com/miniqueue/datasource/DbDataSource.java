@@ -34,8 +34,10 @@ public class DbDataSource implements DataSource {
         MessageDAO messageDAO = jdbi.onDemand(MessageDAO.class);
         List<com.miniqueue.representation.response.Message> messageList = messageDAO.getMessages();
         for (com.miniqueue.representation.response.Message message : messageList) {
+            message.setIsProcessed(1);
             message.setIsProcessing(1);
         }
+        messageDAO.updateMessage(messageList);
         return messageList;
     }
 

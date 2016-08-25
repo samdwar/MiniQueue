@@ -2,6 +2,7 @@ package com.miniqueue.dao;
 
 import com.miniqueue.representation.request.Message;
 import org.skife.jdbi.v2.sqlobject.BindBean;
+import org.skife.jdbi.v2.sqlobject.SqlBatch;
 import org.skife.jdbi.v2.sqlobject.SqlQuery;
 import org.skife.jdbi.v2.sqlobject.SqlUpdate;
 import org.skife.jdbi.v2.sqlobject.customizers.RegisterMapper;
@@ -23,7 +24,11 @@ public interface MessageDAO {
 
 
     @RegisterMapper(com.miniqueue.representation.response.Message.MessageMapper.class)
-    @SqlQuery("select * from " + TABLE)
+    @SqlQuery("select * from " + TABLE + " where is_processed =0 and is_processing=0 limit 10")
     List<com.miniqueue.representation.response.Message> getMessages();
+
+    @SqlBatch("update " + TABLE + " set  is_processed =1, is_processing =1 where message_id =:messageList.messageId")
+    void updateMessage(@BindBean("messageList") List<com.miniqueue.representation.response.Message> messageList);
+
 
 }
