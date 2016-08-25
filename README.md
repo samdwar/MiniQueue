@@ -16,7 +16,7 @@
 Available API
 -------------
 1. Create New Message 
-    `http://localhost:8081/send`
+    `http://localhost:8080/send`
     
     This api lets you create new message in the Queue.
    
@@ -26,7 +26,7 @@ Available API
     }`
     
 2. Receive unprocessed message for processing 
-    `http://localhost:8081/receive`
+    `http://localhost:8080/receive`
     This api to get message for processing for consumers from Queue.
     
     Sample Output : JSON format
